@@ -1,0 +1,13 @@
+{
+  "name": "apppm3ak",
+  "private": true,
+  "description": "Racine monorepo Ma3ak : scripts utilitaires",
+  "scripts": {
+    "export-seed": "node exportSeed.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0"
+  }
+}

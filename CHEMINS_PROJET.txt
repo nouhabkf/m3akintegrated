@@ -1,0 +1,28 @@
+Ma3ak — chemins (voir PROJET_UNIFIE.txt pour le mode « un seul travail »)
+========================================================================
+
+Racine unique recommandée :
+  C:\Users\DELL\Downloads\appm3ak
+
+Détail :
+  • Flutter (mobile + web, travail à jour) : C:\Users\DELL\Downloads\appm3ak\frontend\appm3ak\appm3ak
+  • Copie plus ancienne : C:\Users\DELL\Downloads\appm3ak\appm3ak
+  • Backend API            : C:\Users\DELL\Downloads\appm3ak\backend\backend-m3ak 2
+
+Scripts (depuis la racine appm3ak) :
+  .\scripts\installer-tout.ps1
+  .\scripts\1-demarrer-backend.ps1
+  .\scripts\2-demarrer-flutter.ps1
+  .\scripts\2-demarrer-flutter.ps1 -Web    → lance dans Chrome
+
+---
+Archives / doublons (ne pas utiliser en parallèle du flux principal) :
+  • Zip extrait      : C:\Users\DELL\Downloads\m3akk
+  • Backend ailleurs : C:\Users\DELL\Downloads\backend-m3ak\backend-m3ak 2
+  • Ancienne app seule : C:\Users\DELL\Downloads\appm3ak\appm3ak
+  • Web séparé       : C:\Users\DELL\Downloads\appm3ak\web\webm3ak 2
+
+Lis PROJET_UNIFIE.txt pour l’explication complète.
+
+Index détaillé (smart filter, vision, TTS, FALC, trust) :
+  FONCTIONNALITES_ACCES_COMMUNAUTE.md

@@ -1,0 +1,34 @@
+Ma3ak — PROJET UNIQUE (tout sous un seul dossier)
+=================================================
+
+Racine du projet (ouvre ce dossier dans Cursor / VS Code) :
+  C:\Users\DELL\Downloads\appm3ak
+
+À utiliser pour travailler et lancer :
+
+  • Backend NestJS (API)
+    C:\Users\DELL\Downloads\appm3ak\backend\backend-m3ak 2
+
+  • Application Flutter (mobile + web — code à jour : communauté, vision, TTS)
+    C:\Users\DELL\Downloads\appm3ak\frontend\appm3ak\appm3ak
+
+  (Ancienne copie, souvent moins à jour :)
+    C:\Users\DELL\Downloads\appm3ak\appm3ak
+    - Mobile : flutter run
+    - Web    : flutter run -d chrome
+
+Ne pas mélanger avec d’autres copies pour le flux quotidien :
+  - C:\Users\DELL\Downloads\backend-m3ak\...     → doublon backend, ignorer sauf migration
+  - C:\Users\DELL\Downloads\appm3ak\appm3ak      → ancienne app Flutter (sans tout le dernier travail)
+  - C:\Users\DELL\Downloads\appm3ak\web\...      → ancien web séparé (optionnel)
+  - C:\Users\DELL\Downloads\m3akk                → archive zip, comparaison seulement
+
+---
+Installation une fois (PowerShell, depuis la racine appm3ak) :
+  .\scripts\installer-tout.ps1
+
+Puis 2 terminaux :
+  Terminal 1 : .\scripts\1-demarrer-backend.ps1
+  Terminal 2 : .\scripts\2-demarrer-flutter.ps1
+
+API par défaut : http://localhost:3000 (voir .env dans le dossier backend)

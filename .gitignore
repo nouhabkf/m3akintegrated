@@ -1,0 +1,60 @@
+# Racine — M3AK (Flutter + NestJS + outils)
+__MACOSX/
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.idea/
+.vscode/
+
+# Secrets (ne jamais committer)
+.env
+.env.*
+!.env.example
+
+# Node / NestJS
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Flutter / Dart
+.dart_tool/
+.pub/
+.pub-cache/
+**/build/
+**/doc/api/
+*.iml
+**/ios/Flutter/.last_build_id
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/.gradle/
+**/android/.gradle/
+
+# Uploads locaux (si présents)
+**/uploads/
+**/tmp/
+
+# Python local env / cache
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Flutter generated machine-specific files
+**/.flutter-plugins-dependencies
+**/android/local.properties
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Local duplicate exports (not canonical repo source)
+appm3ak/
+web/
+
+# Modèles IA lourds
+ ai/models/*.joblib
