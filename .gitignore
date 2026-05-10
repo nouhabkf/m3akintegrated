@@ -58,3 +58,7 @@ web/
 
 # Modèles IA lourds
  ai/models/*.joblib
+
+backend/**/venv/
+
+backend/**/.venv/
