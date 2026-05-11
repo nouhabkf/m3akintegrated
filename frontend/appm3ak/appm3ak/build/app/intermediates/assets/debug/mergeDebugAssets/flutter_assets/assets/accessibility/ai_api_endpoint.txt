@@ -1,8 +1,0 @@
-# Une URL par ligne ; la PREMIÈRE qui répond à /health sera utilisée (sonde au démarrage).
-# Émulateur Android :
-http://10.0.2.2:8000
-# Même machine (Windows / simulateur iOS) :
-http://127.0.0.1:8000
-# Téléphone sur Wi‑Fi / partage : IPv4 du PC (ipconfig), ex. :
-# http://192.168.1.50:8000
-# http://172.20.10.2:8000
