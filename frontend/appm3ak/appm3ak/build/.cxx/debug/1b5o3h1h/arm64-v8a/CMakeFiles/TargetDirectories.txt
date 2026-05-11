@@ -1,0 +1,2 @@
+C:/Users/nouha/apppm3ak/frontend/appm3ak/appm3ak/build/.cxx/debug/1b5o3h1h/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/nouha/apppm3ak/frontend/appm3ak/appm3ak/build/.cxx/debug/1b5o3h1h/arm64-v8a/CMakeFiles/rebuild_cache.dir
